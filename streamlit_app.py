@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.link_button("← Back", "https://https://waizkhalil.pythonanywhere.com/.com")
+st.link_button("← Back", "https://waizkhalil.pythonanywhere.com")
 
 # Show title and description.
 st.title("💬 Waiz Chatbot")

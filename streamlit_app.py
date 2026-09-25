@@ -4,18 +4,19 @@ from openai import OpenAI
 # Back button
 st.markdown(
     """
-    <a href="https://waizkhalil.pythonanywhere.com/">
-        <button style="
+    <button
+        onclick="window.top.location.href='https://waizkhalil.pythonanywhere.com/';"
+        style="
             padding: 8px 18px;
             font-size: 16px;
             border-radius: 8px;
             border: 1px solid #ccc;
-            background-color: #080512;
+            background-color: #f5f5f5;
             cursor: pointer;
-        ">
-            ← Back
-        </button>
-    </a>
+        "
+    >
+        ← Back
+    </button>
     """,
     unsafe_allow_html=True
 )

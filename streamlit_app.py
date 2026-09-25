@@ -4,7 +4,8 @@ from openai import OpenAI
 # Back button
 st.markdown(
     """
-        <button onclick="window.history.back()" style="
+    <a href="https://waizkhalil.pythonanywhere.com/">
+        <button style="
             padding: 8px 18px;
             font-size: 16px;
             border-radius: 8px;
@@ -14,6 +15,7 @@ st.markdown(
         ">
             ← Back
         </button>
+    </a>
     """,
     unsafe_allow_html=True
 )

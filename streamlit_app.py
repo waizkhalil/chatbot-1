@@ -1,24 +1,9 @@
 import streamlit as st
 from openai import OpenAI
 
-# Back button
-st.markdown(
-    """
-    <button
-        onclick="window.top.location.href='https://waizkhalil.pythonanywhere.com/';"
-        style="
-            padding: 8px 18px;
-            font-size: 16px;
-            border-radius: 8px;
-            border: 1px solid #ccc;
-            background-color: #f5f5f5;
-            cursor: pointer;
-        "
-    >
-        ← Back
-    </button>
-    """,
-    unsafe_allow_html=True
+st.link_button(
+    "← Back",
+    "https://waizkhalil.pythonanywhere.com/"
 )
 
 
